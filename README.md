@@ -81,7 +81,7 @@ python main.py
 | exit | Terminate application | exit |
 
 ### Conversation Logging
-PyAssist maintains detailed logs in ```thread_logs/``` with:
+PyAssist maintains detailed logs in ```thread_log/``` with:
 - Full message history
 - Tool call details
 - System operations
