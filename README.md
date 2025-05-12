@@ -36,10 +36,11 @@ PyAssist is an advanced Python implementation for creating personalized AI assis
    ```bash
    git clone https://github.com/yourusername/PyAssist.git
    cd PyAssist
+   ```
 2. Install dependencies
-  ```bash
-  pip install -r requirements.txt
-  ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ### Configuration
 1. Rename RenameThisFile.env to .env
