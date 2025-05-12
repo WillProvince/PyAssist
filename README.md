@@ -11,6 +11,7 @@ PyAssist is an advanced Python implementation for creating personalized AI assis
   - Improves interaction quality through usage patterns
 - **Multi-Modal Capabilities**
   - **File Operations**: Create, modify, and open local files
+  - **Program Execution**: Run local files and programs as a user
   - **Web Integration**: Real-time search and data retrieval
   - **Voice & Text**: Dual interaction channels with TTS/STT
 - **Contextual Awareness**
@@ -26,7 +27,7 @@ PyAssist is an advanced Python implementation for creating personalized AI assis
 ### Prerequisites
 - Python 3.8+
 - OpenAI API Key (Required)
-- Google API Key (Optional, for voice features)
+- Google API Key (Required, for location based queries)(Only OpenAI get's these Analytics and they appear on your dashboard in the thread.)
 - ScaleSERP API Key (Optional, for web search)
 - Tomorrow.IO API Key (Optional, for weather)
 
