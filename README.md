@@ -85,8 +85,6 @@ python main.py
 PyAssist maintains detailed logs in ```thread_log/``` with:
 - Full message history
 - Tool call details
-- System operations
-- File attachments
 ### Sample log structure:
 ```
 User: Can you tell me the time?
