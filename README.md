@@ -81,16 +81,21 @@ python RunAssistant.py
 
 ### Conversation Logging
 PyAssist maintains detailed logs in ```thread_logs/``` with:
-- Timestamped interactions
 - Full message history
 - Tool call details
 - System operations
 - File attachments
 ### Sample log structure:
 ```
-[2023-11-15 14:30:00] USER_QUERY: "Current time?"
-[2023-11-15 14:30:02] TOOL_CALL: get_time()
-[2023-11-15 14:30:03] ASSISTANT: "The current time is 14:30:03 UTC"
+User: Can you tell me the time?
+------------------------------------------------
+Assistant: 
+------------------------------------------------
+TOOL CALL
+Tool Name: "get_time"
+Parsed Arguments:{'time_zone': 'America/New_York', 'format': '12hr'}
+------------------------------------------------
+Assistant: The current time in New York City, NY is 10:14 AM. How can I help you further?
 ```
 ## Support & Contribution
 For issues or feature requests, please open an issue.
