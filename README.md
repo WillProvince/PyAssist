@@ -60,7 +60,7 @@ TOOL_LIST = "func.txt"
 ## Usage
 ### Launching the Application
 ```bash
-python RunAssistant.py
+python main.py
 ```
 ### Interaction Modes
 | Mode | Description | Features |
