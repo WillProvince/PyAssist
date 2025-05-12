@@ -2,7 +2,7 @@
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-PyAssist is an advanced Python implementation for creating personalized AI assistants through OpenAI's API. This script enables local execution of intelligent agents capable of program execution ,file management, web interactions, and contextual conversations, with persistent memory that evolves through continued use.
+PyAssist is an advanced Python implementation for creating personalized AI assistants through OpenAI's API. This script enables local execution of intelligent agents capable of program execution, file management, web interactions, and contextual conversations, with persistent memory that evolves through continued use.
 
 ## Key Features
 
